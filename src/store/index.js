@@ -9,4 +9,5 @@ const store = configureStore({
   },
 })
 
+console.log("state", store.getState())
 export default store
